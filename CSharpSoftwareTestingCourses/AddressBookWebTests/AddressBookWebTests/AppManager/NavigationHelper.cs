@@ -6,9 +6,9 @@ namespace AddressBookWebTests
     {       
         private string baseURL;
 
-        public NavigationHelper(IWebDriver driver, string baseURL): base(driver)
+        public NavigationHelper(AppManager appManager) : base(appManager)
         {          
-            this.baseURL = baseURL;
+            baseURL = appManager.BaseURL;
         }
 
         public void GoToHomePage()

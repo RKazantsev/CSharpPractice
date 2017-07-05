@@ -7,17 +7,20 @@ namespace AddressBookWebTests
     {
         [Test]
         public void GroupCreationTest()
-        {
-            appManager.Navigator.GoToHomePage();
-            appManager.Auth.Login(new AccountData("admin", "secret"));
-            appManager.Navigator.GoToGroupsPage();
-            appManager.Groups.InitGroupCreation();
+        {              
             GroupData group = new GroupData("aaa");
             group.Header = "bbb";
-            group.Footer = "ccc";
-            appManager.Groups.FillGroupForm(group);
-            appManager.Groups.SubmitGroupCreation();
-            appManager.Groups.ReturnToGroupsPage();
-        }                               
+            group.Footer = "ccc";            
+            appManager.Groups.Create(group);
+        }
+
+        [Test]
+        public void EmptyGroupCreationTest()
+        {
+            GroupData group = new GroupData("");
+            group.Header = "";
+            group.Footer = "";            
+            appManager.Groups.Create(group);
+        }
     }
 }

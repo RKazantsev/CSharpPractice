@@ -10,7 +10,9 @@ namespace AddressBookWebTests
         [SetUp]
         public void SetupTest()
         {            
-            appManager = new AppManager();           
+            appManager = new AppManager();
+            appManager.Navigator.GoToHomePage();
+            appManager.Auth.Login(new AccountData("admin", "secret"));
         }
 
         [TearDown]

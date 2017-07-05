@@ -20,7 +20,7 @@
   <Class Name="AddressBookWebTests.GroupCreationTests" Collapsed="true">
     <Position X="2.5" Y="4.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Tests\GroupCreationTests.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -34,7 +34,7 @@
   <Class Name="AddressBookWebTests.GroupHelper" Collapsed="true">
     <Position X="6.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAAAABAAAAAAAAAAAAAAAABMAAAAAAAAABAAAA=</HashCode>
+      <HashCode>AAACAAAAAABAAAAAAAAABAAAAAABMEAAAAAAAABAAAA=</HashCode>
       <FileName>AppManager\GroupHelper.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -55,14 +55,14 @@
   <Class Name="AddressBookWebTests.HelperBase">
     <Position X="8.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>AppManager\HelperBase.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="AddressBookWebTests.AppManager">
     <Position X="3.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAABAAAAAAACAAAAASAAAAAAAAAIBCAABEAACA=</HashCode>
+      <HashCode>AAAAAEAABAAAAAAACAAAAASAACAAgAAAIBCAABEAACA=</HashCode>
       <FileName>AppManager\AppManager.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
