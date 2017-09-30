@@ -8,8 +8,7 @@ namespace AddressBookWebTests
         [Test]
         public void GroupRemovalTest()
         {
-            appManager.Groups.Remove(1);
-            
+            appManager.Groups.Remove(1);            
         }                                    
     }
 }
